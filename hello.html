@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello</title>
+        <style>
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                margin-top: 100px;
+                text-decoration: underline;
+                animation-name: colorchange;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+
+            h1:hover {
+                font-size: 75px;
+                text-align: center;
+                margin-top: 100px;
+                text-decoration: underline;
+                animation-name: colorchange;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes colorchange {
+                0% { color: red;}
+                25% { color: aquamarine;}
+                50%  {color:blue;}
+                75% { color: green;}
+                100% {color:red;}
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Hello World!!</h1>
+        </header>
+    </body>
+</html>
